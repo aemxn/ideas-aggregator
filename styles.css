@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Domine:400,700);
+
+/* Styles for example pages */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+img,object,embed {
+    display: block;
+    max-width: 100%;
+}
+
+/* Base colors
+ * #E9632F Orange
+ * #F6CDB9 Orange light
+ * #3A180B Dark
+ * #743115 Mid
+ * #FFF    White
+ */
+body {
+    max-width: 1050px;
+    margin: 0 auto;
+    font-size: 100%;
+    line-height: 1.4em;
+    background: #E74C3C none repeat scroll 0% 0%;
+    color: #FFF;
+}
+
+a {
+    text-decoration:none;
+}
+
+a p {
+    padding: 1em;
+    font-size: 1em;
+    margin: 0;
+    font-family: 'Domine', serif;
+    /*color: #E74C3C;*/
+    color: #fff;
+}
+
+
+h1 {
+    font-size: 4.5em;
+    font-weight: bold;
+    letter-spacing: -0.05em;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    font-family: 'Domine', serif;
+}
+
+.item.line-reddit{
+    padding: 10px;
+    border-top: #F89406 8px solid;
+}
+.item.line-twitter{
+    padding: 10px;
+    border-top: #FDE3A7 8px solid;
+}
+
+.footer {
+    font-size: 1em;
+    color: #FFF;
+    margin: 0.5em;
+}
+
+.footer a {
+    color: #FFF;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+/* Configurate salvattore with media queries */
+@media screen and (max-width: 450px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 451px) and (max-width: 700px) {
+    h1 {
+        font-size: 2.5em;
+    }    
+}
+
+@media screen and (min-width: 701px) and (max-width: 850px) {
+    h1 {
+        font-size: 3.5em;
+    }    
+}
