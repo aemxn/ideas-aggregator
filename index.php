@@ -4,14 +4,6 @@ require_once('include/CacheHandler.php');
 $cacheObj = new CacheHandler();
 $results = $cacheObj->getFromCache();
 
-$title = array(
-    'shine on',
-    'illuminate',
-    'light bulb',
-    'ting!',
-    'mind=blown',
-    'oh my ideas!'
-    );
 ?>
 
 <!DOCTYPE html>
@@ -29,7 +21,7 @@ $title = array(
 </head>
 <body>
 
-<?php /* <h1><?php  echo $title[array_rand($keywords, 1)];  ?></h1> */ ?>
+<h1>Idea House</h1>
 
 <div id="timeline" data-columns="4">
     <?php foreach($results as $result) { ?>
